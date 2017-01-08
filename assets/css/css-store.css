@@ -1,2 +1,48 @@
 /* css for viking-google.no */
+div {
+	border: 1px solid grey;
+}
 
+body {
+	font-family: 'EB Garamond', serif;
+	color: #444;
+}
+
+body h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.navbar {
+	height: 50px;
+}
+
+.navbar h1 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.navbar-left {
+	float: left;
+	margin-left: 100px;
+	padding-top: 10px;
+}
+.navbar-right {
+	float: right;
+	margin-right: 100px;
+	padding-top: 10px;
+	display: table;
+
+}
+
+.navbar-right img {
+	display: table-cell;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.navbar-right p {
+	font-size: 18px;
+	display: table-cell;
+	vertical-align: middle;
+}
