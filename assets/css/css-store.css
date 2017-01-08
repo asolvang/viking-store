@@ -147,6 +147,19 @@ h2 {
 	font-weight: bold;
 }
 .page_nav {
-
 	text-align: center;
+}
+
+.page_nav {
+	font-size: 20px;
+	padding: 5px 5px 5px 0;
+}
+
+.page_nav .current {
+	text-decoration: none;
+}
+
+.dotted {
+	margin-left: 25px;
+	margin-right: 25px;
 }
